@@ -25,13 +25,15 @@
 		padding: 0;
 	}		
 	.image{
-		width: 300px;		
+		width: 300px;
+		margin: 0 auto;
 	}
 	.form-input-left, .form-input-right{
 		margin: 0 auto;
 	}
 	body>section, nav, header{
-		margin: 0 15px !important;
+		margin-left: 15px !important;
+		margin-right: 15px !important;
 	}
 	.header-middle{
 		min-height: 34px;
