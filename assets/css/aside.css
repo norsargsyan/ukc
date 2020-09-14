@@ -1,0 +1,46 @@
+/* aside */
+.aside{
+	max-width: 370px;
+}
+.submenu{
+	transition: all .1s ease-in-out;
+	overflow: hidden;
+	height: 0;
+	opacity: 0;
+}
+.aside>ul>li{
+	min-width: 370px;
+	line-height: 59px;
+	background: #009999;
+	border-bottom: 1px solid #fff;
+}
+.aside>ul>li>div{
+	cursor: pointer;
+}
+
+.aside-menu-span{
+	font-size: 18px;
+	color: #fff;
+}
+.arrow-image{
+	width: 15px;
+	height: 9px;
+	background: url('../icons/Arrow 18.png');
+	display: inline-block;
+	transition: .3s ease;
+}
+.aside-menu-span, .submenu>li>span{
+	display: inline-block;
+	min-width: 290px;
+	margin-left: 30px;
+	font-family: 'Roboto-Regular';
+}
+
+.submenu>li{
+	background: #F1F2F4;
+	line-height: 30px;
+}
+
+.hiding {
+  height: 0;
+}

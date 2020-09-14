@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Roboto';
+    background: #EBEBEB;
+}
+ul{
+	list-style-type: none;
+}
+textarea{
+	resize: none;
+}
+.main-button{
+	background: #03C9A9;
+	color: #fff;
+	padding: 17px 24px;
+	display: inline-block;
+	cursor: pointer;
+}

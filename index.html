@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>УК Центр АПТ</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- header -->
+	<header class="header">
+		<div class="header-middle">
+			<div class="logo get-left">
+				<a href="/"><img src="assets/icons/logo.png" alt="logo"></a>
+			</div>
+			<div class="feedback-block get-left">
+				<ul class="feedback-ul">
+					<li><img src="assets/icons/pin 1.png" alt="icon"> <span class="header-text">г.Москва, ул. Осташковская, 14 с17</span></li>
+					<li><img src="assets/icons/phone 1.png" alt="icon"> <span class="header-text">+7 (495) 741-89-30 (с 11:00 до 20:00 МСК)</span></li>
+				</ul>
+			</div>
+			<div class="feedback-block get-left">
+				<ul class="feedback-ul">
+					<li><img src="assets/icons/instagram 1.png" alt="icon"> <span class="header-text">paa@centerapt.ru</span></li>
+					<li><img src="assets/icons/email 1.png" alt="icon"> <span class="header-text">paa@centerapt.ru</span></li>
+				</ul>
+			</div>
+			<div class="feedback-block-button get-right">
+				<span class="main-button">Обратный звонок</span>
+			</div>
+			<div class="mobile-menu-icon" id="open-menu" onclick="showMenu()">
+				<span><img src="assets/icons/menu 1.png" alt="icon"></span>
+			</div>
+			<div id="mobile-menu">
+				<div id="for-close" onclick="hideMenu()"></div>
+				<div id="mobile-menu-list">
+					<ul class="menu-links">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">компании</a></li>
+						<li><a href="#">Продукция</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Наши объекты</a></li>
+						<li><a href="#">Галерея</a></li>
+						<li><a href="#">Сертификаты</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- nav -->
+
+	<nav class="nav-menu nav">
+		<ul class="menu-links">
+			<li class="active"><a href="#">Главная</a></li>
+			<li class="drop-down-menu"><a href="#">О компании <img src="assets/icons/arrow down.png"></a>
+				<ul class="menu-item-child">
+					<li><a href="#">Меню 1</a></li>
+					<li><a href="#">Меню 2</a></li>
+					<li><a href="#">Меню 3</a></li>
+					<li><a href="#">Меню 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Продукция</a></li>
+			<li class="drop-down-menu"><a href="#">Услуги <img src="assets/icons/arrow down.png"></a>
+				<ul class="menu-item-child">
+					<li><a href="#">Меню 1</a></li>
+					<li><a href="#">Меню 2</a></li>
+					<li><a href="#">Меню 3</a></li>
+					<li><a href="#">Меню 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Наши объекты</a></li>
+			<li><a href="#">Галерея</a></li>
+			<li><a href="#">Сертификаты</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</nav>
+
+	<!-- nav conductor -->
+
+	<nav class="nav-menu-conductor nav">
+		<ul>
+			<li><a href="#">Главная</a></li>
+			<li><img src="assets/icons/1.png"></li>
+			<li class="mobile-hide"><a href="#">Наша продукия</a></li>
+			<li class="mobile-hide"><img src="assets/icons/1.png"></li>
+			<li><a href="#">Противопожарные двери</a></li>
+		</ul>
+	</nav>
+
+	<!-- main section -->
+
+	<section class="main-section">
+		<!-- aside -->
+		<aside class="aside">
+			<ul>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(0)">
+						<span class="aside-menu-span">Огнестойкость</span>
+						<span class="arrow-image"></span>
+					</div>
+					<ul class="submenu">
+							<li><span>EIW 60</span></li>
+							<li class="submenu-active-link"><span>EIW 45</span></li>
+							<li><span>EIW 30</span></li>
+							<li><span>EIW 15</span></li>
+							<li><span>EL 60</span></li>
+							<li><span>EL 45</span></li>
+							<li><span>EL 30</span></li>
+							<li><span>EL 15</span></li>
+						</ul>
+				</li>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(1)">
+						<span class="aside-menu-span">Дымогазонепроницаемые</span>
+						<span class="arrow-image"></span>
+						
+					</div>
+					<ul class="submenu">
+						<li><span>EIWS 15 - EIWS 60</span></li>
+						<li><span>EIS 15 - EIS 60</span></li>
+					</ul>
+					
+				</li>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(2)">
+						<span class="aside-menu-span">Профиль</span>
+						<span class="arrow-image"></span>
+						
+					</div>
+					<ul class="submenu">
+						<li><span>Алюминиевый профиль</span></li>
+						<li><span>Нержавеющий профил</span></li>
+					</ul>
+
+				</li>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(3)">
+						<span class="aside-menu-span">Остекление</span>
+						<span class="arrow-image"></span>
+					</div>
+					<ul class="submenu">
+						<li><span>Более 25%</span></li>
+						<li><span>Глухое</span></li>
+					</ul>
+
+				</li>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(4)">
+						<span class="aside-menu-span">По количеству створок</span>
+						<span class="arrow-image"></span>
+					</div>
+					<ul class="submenu">
+						<li><span>Двустворчатые двери</span></li>
+						<li><span>Одностворчатые двери</span></li>
+					</ul>
+
+				</li>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(5)">
+						<span class="aside-menu-span">По типу преград</span>
+						<span class="arrow-image"></span>
+					</div>
+					<ul class="submenu">
+						<li><span>1-й тип</span></li>
+						<li><span>2-й тип</span></li>
+						<li><span>3-й тип</span></li>
+					</ul>
+
+				</li>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(6)">
+						<span class="aside-menu-span">Противопожарные пороги</span>
+						<span class="arrow-image"></span>
+					</div>
+					<ul class="submenu">
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+					</ul>
+
+				</li>
+				<li>
+					<div class="aside-menu" onclick="showAsideMenu(7)">
+						<span class="aside-menu-span">По виду открывания</span>
+						<span class="arrow-image"></span>
+					</div>
+					<ul class="submenu">
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+						<li><span>EIW 60</span></li>
+					</ul>
+
+				</li>
+			</ul>
+		</aside>
+
+		<!-- section -->
+		<section class="section">
+			<h2 class="title">Противопожарные двери</h2>
+			<ul class="triangle-list">
+				<li><span>Термины и сокращения</span></li>
+				<li><span>Полное наименование системы</span></li>
+				<li><span>Область применения</span></li>
+				<li><span>Описание концепции системы</span></li>
+			</ul>
+			<div class="standart-text">
+				<span>Вот вам яркий пример современных тенденций — курс на пример котрые делает социально-ориентированный национальный проект не оставляет шанса для таких соответствующих условий активизации. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа систем массового участия. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации позиций,</span>
+			</div>
+			<div class="slide">
+				<div class="image">
+					<img src="assets/img/img1.jpg" alt="img1" class="img-slide">
+					<img src="assets/img/img1.jpg" alt="img1" class="second-picture img-slide">
+					<img src="assets/img/img1.jpg" alt="img1" class="second-picture img-slide">
+				</div>
+				<div class="slide-controller">
+					<ul>
+						<li><img src="assets/icons/Arrow 13.png" class="icon-arrow" onclick="changeImage(false)"></li>
+						<li><img src="assets/icons/Ellipse 119.png" class="position" onclick="changeImageCircle(0)"></li>
+						<li><img src="assets/icons/Ellipse 118.png" class="position" onclick="changeImageCircle(1)"></li>
+						<li><img src="assets/icons/Ellipse 118.png" class="position"></li>
+						<li><img src="assets/icons/Arrow 14.png" class="icon-arrow" onclick="changeImage(true)"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="standart-text">
+				Вот вам яркий пример современных тенденций — курс на пример котрые делает социально-ориентированный национальный проект не оставляет шанса для таких соответствующих условий активизации. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа систем массового участия. Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.
+			</div>
+			<div class="form">
+				<div class="form-content">
+					<div class="form-title">
+						<span>Отправить заявку</span>
+					</div>
+					<div class="form-description">
+						<span>Просто оставьте свои контактные данные и комментарий. Ваши данные сохранены в соответствии с политикой конфиденциальности сайта. А менеджер свяжется с вами в рабочее время и оформит заказ</span>
+					</div>
+					<div class="input-rigth-left">
+						<div class="form-input-left">
+							<div>
+								<span class="input-icon"><span class="icon-circle"><img src="assets/icons/social 1.png"></span></span>
+								<input class="input-text" type="text" placeholder="Ваш имя">
+							</div>
+							<div>
+								<span class="input-icon"><span class="icon-circle"><img src="assets/icons/mail 1.png"></span></span>
+								<input class="input-text" type="text" placeholder="Ваш email">
+							</div>
+							<div>
+								<span class="input-icon"><span class="icon-circle"><img src="assets/icons/phone 1.png"></span></span>
+								<input class="input-text" type="text" placeholder="Ваш телефон">
+							</div>
+							
+						</div>
+						<div class="form-input-right">	
+							<div>
+								
+								<textarea name="" id="" cols="30" rows="10" placeholder="Коментарии"></textarea>
+							</div>
+							
+							<div>
+								<span class="input-icon"><span class="icon-circle"><img src="assets/icons/paper 1.png"></span></span>
+								<input class="input-text" type="text" placeholder="Ваш email">
+							</div>
+							
+						</div>
+						
+					</div>
+					<div class="input-rigth-left">
+						<div class="form-input-left">	
+							<div>
+								<input type="checkbox" id="inTel" class="checkboxes" name="inTel"><label for="inTel">Получить ответ по телефону</label>
+							</div>
+							<div>	
+								<input type="checkbox" id="inEmail" class="checkboxes" name="inEmail"><label for="inEmail">Получить ответ по email</label>
+							</div>
+						</div>	
+						<div class="form-input-right">
+							<div>
+								<button class="main-button submit" type="submit">Отправить заявку</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</section>
+	</section>
+
+	<script src="assets/js/aside-animation.js"></script>
+	<script src="assets/js/show-menu.js"></script>
+	<script src="assets/js/show-aside-menu.js"></script>
+</body>
+</html>
